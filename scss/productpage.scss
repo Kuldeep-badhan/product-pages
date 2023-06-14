@@ -1,0 +1,40 @@
+
+
+$primary-font: 'Montserrat', serif;
+
+/*--------------------------- Color variations ----------------------*/
+$main_bg_color: #ffffff;
+$main_color: #000000;
+$hover_color: #FFF200;
+$btn_color: #00B1FF;
+/*--------------------------- scss code ----------------------*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body {
+	font-family: $primary-font;
+	font-size: 18px;
+	background: $main_bg_color;
+	color: $main_color;
+}
+
+.product {
+    display: flex;
+    &__image {
+        img {
+
+            height: 200px;
+        }
+    }
+}
