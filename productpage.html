@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -78,13 +78,13 @@
           <div class="product__description__rating__review">
             <!-- Rating and Review Link -->
             <div class="product__feature__rating-stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
+              <i class="fa-solid fa-star star__icons"></i>
+              <i class="fa-solid fa-star star__icons"></i>
+              <i class="fa-solid fa-star star__icons"></i>
+              <i class="fa-solid fa-star star__icons"></i>
+              <i class="fa-regular fa-star star__icons"></i>
             </div>
-            <span>(10000+)</span>
+            <span class="product__number-of-reveiws">(10000+)</span>
             |
             <a href="#" class="product__description__rating__review__link"
               >Read Reviews</a
@@ -92,13 +92,16 @@
           </div>
           <p class="product__description__paragraph">
             <!-- Product Description -->
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            beatae architecto commodi provident, quo eius nesciunt, eos illum
-            iste dolorum delectus quam alias, consequuntur vel repellendus ab
-            dicta ullam vitae!
+            Our favorite classic tee, the Hanes Authentic collection is great
+            for any group. Available in a wide range of sizes with a comfortable
+            fit, this product will meet the needs of your group at a price
+            you’ll love. Looking for a different color or size? Try the Gildan
+            Ultra Cotton T-shirt!
           </p>
           <button class="product__description__button">Start Designing</button>
-          <p>## design templates available</p>
+          <p class="product__template__hashtag">
+            ## design templates available
+          </p>
           <div class="product__description__images">
             <!-- Additional Product Images -->
             <img
@@ -119,9 +122,27 @@
           </div>
           <div class="product__sizes">
             <!-- Product Sizes Section -->
-            <span>Sizes Available:</span>
+            <span class="product__sizes__title">Sizes Available:</span>
             <p class="product__sizes__options">
-              YXS | YS | YM | YXL | S | M | L | XL | 2XL | 3XL | 4XL
+              <span class="product__size__option"> YXS </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> YS </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> YXL </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> S </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> M </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> L </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> XL </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> 2XL </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> 3XL </span>
+              <span class="product__size__option__bar"> | </span>
+              <span class="product__size__option"> 4XL </span>
             </p>
             <div class="product__description__links">
               <!-- Additional Links -->
@@ -141,26 +162,31 @@
           <!-- Title -->
           <h2 class="product-overview__title">Product Overview</h2>
           <!-- Features Section -->
-          <h3 class="product-overview__feature-caption">Features</h3>
+          <h3 class="product-overview__feature-caption">FEATURES</h3>
           <hr />
           <ul class="product-overview__feature-list">
             <li class="product-overview__feature">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              6 oz. 100% pre-shrunk cotton
             </li>
             <li class="product-overview__feature">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Heathered colors; Ash, Light Dteel, Oxford Grey and Safety colors
+              are Poly/cotton blends
+            </li>
+            <li class="product-overview__feature">Tear away neck label</li>
+            <li class="product-overview__feature">
+              Self fabric neck tape for added comfort
             </li>
             <li class="product-overview__feature">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Double-needle stitch on sleeve and bottom hem and shoulder-to-
+              shoulder tape for added durability
             </li>
             <li class="product-overview__feature">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Available up to 6XL in select colors, call for more details
             </li>
             <li class="product-overview__feature">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </li>
-            <li class="product-overview__feature">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Note: as Hanes transitions from tagless labels to tear away tags,
+              some products will be shipped tagless. If you have questions about
+              a specific color, please contact customer service at 800-293-4232.
             </li>
           </ul>
         </div>
@@ -172,16 +198,16 @@
           <!-- Delivery Options Section -->
           <h3 class="product-overview__delivery-title">Delivery Options</h3>
           <ul class="product-overview__delivery-list">
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Ships in xx calendar days</li>
+            <li>Multiple courier options available</li>
+            <li>Flat rate shipping is $9.95 per US address</li>
+            <li>Eligible for free shipping at $xxx.xx</li>
           </ul>
 
           <!-- Other Details Section -->
-          <h3 class="product-overview__other-title">Other Details</h3>
+          <h3 class="product-overview__other-title">Decoration</h3>
           <p class="product-overview__other-description">
-            Lorem ipsum dolor sit amet.
+            Cut & Sew Dye Sublimation
           </p>
 
           <!-- Minimum Quantity Section -->
@@ -194,531 +220,58 @@
         <h2 class="product__information__title">Product Information</h2>
         <!-- product information in paragraphs -->
         <p class="product__information__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro
-          repellendus quas ullam alias placeat laboriosam aut? Cum, vero
-          repellat.
+          Focus on comfort at your next group event with this Hanes Authentic
+          Crewneck Short Sleeve T-shirt. Formerly the tagless t-shirt, this
+          Hanes is a true original. With a tear away label for added comfort and
+          rebranding, we (and our necks) are truly grateful. These custom tear
+          away tag tees are sturdy and durable. They're a great basic tee, but
+          you already know that because you probably already have some of these
+          in your closet.
         </p>
         <p class="product__information__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro
-          repellendus quas ullam alias placeat laboriosam aut? Cum, vero
-          repellat.
+          Available for kids, teens, and adults, these shirts are perfect when
+          personalized for large and diverse groups. If you want to take a group
+          picture at your event, this is the shirt to do it in because everybody
+          will match. It's like magic.
         </p>
         <p class="product__information__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro
-          repellendus quas ullam alias placeat laboriosam aut? Cum, vero
-          repellat.
+          These tees are heavy duty, which makes them great for people involved
+          in hobbies where the shirts might see some wear and tear, like hiking
+          groups and gardening clubs. And that also makes them work for teens,
+          who are pretty much always rough on their clothing (Where did that
+          hole come from?) Create something special for the members of the math
+          team or for the students going to the science competition. Or make
+          funny shirts as birthday party favors that are sure to be a hit.
         </p>
-        <p class="product__information__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro
-          repellendus quas ullam alias placeat laboriosam aut? Cum, vero
-          repellat.
+        <p class="product__information__paragraph--small">
+          Upload your company logo. These are a bled and true promote et trece
+          shows. Make shirts for your wine tasting or book club. Or design
+          something special for the family reunion so nobody ever forgets the
+          time you spent together.
         </p>
-        <p class="product__information__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro
-          repellendus quas ullam alias placeat laboriosam aut? Cum, vero
-          repellat.
-        </p>
-      </section>
-      <section class="product__reviews">
-        <!-- Title -->
-        <h2 class="product__reviews__title">
-          Reviews for Hanes Authentic T-Shirt
-        </h2>
-        <!-- Rating + Number of reviews -->
-        <div class="product__reviews__upper">
-          <div class="product__reviews__stars-rating">
-            <div class="product__starts">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="product__rating">
-              <strong class="product__rating-no">4.4/5</strong>
-              <span class="product__no-of-reviews">1017 reviews</span>
-            </div>
-          </div>
-          <div class="product__trust-pilot">
-            <i class="fa-solid fa-star"></i>
-            <strong>Trust Pilot</strong>
-          </div>
-        </div>
-        <hr />
-        <!-- Pictures -->
-        <div class="product__reviews__images">
-          <img
-            class="product__reviews-image"
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product reviews photo"
-          />
-          <img
-            class="product__reviews-image"
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product reviews photo"
-          />
-          <img
-            class="product__reviews-image"
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product reviews photo"
-          />
-        </div>
-        <!-- Rating range in different categories form excellent to bad -->
-        <div class="product__reviews__rating">
-          <strong class="product__reviews-number">
-            Reviews <span> 1017 </span>
-          </strong>
-          <div class="product__reviews__rating-range-feature">
-            <div class="product__rating__ranges">
-              <div class="product__reveiws-rating-range">
-                <div class="product__rating-parameter">
-                  <span>sq</span>
-                  <span>Excellent</span>
-                  <div class="rating">
-                    <div class="fill"></div>
-                  </div>
-                  <span>%</span>
-                </div>
-              </div>
-              <div class="product__reveiws-rating-range">
-                <div class="product__rating-parameter">
-                  <span>sq</span>
-                  <span>Excellent</span>
-                  <div class="rating">
-                    <div class="fill"></div>
-                  </div>
-                  <span>%</span>
-                </div>
-              </div>
-              <div class="product__reveiws-rating-range">
-                <div class="product__rating-parameter">
-                  <span>sq</span>
-                  <span>Excellent</span>
-                  <div class="rating">
-                    <div class="fill"></div>
-                  </div>
-                  <span>%</span>
-                </div>
-              </div>
-              <div class="product__reveiws-rating-range">
-                <div class="product__rating-parameter">
-                  <span>sq</span>
-                  <span>Excellent</span>
-                  <div class="rating">
-                    <div class="fill"></div>
-                  </div>
-                  <span>%</span>
-                </div>
-              </div>
-              <div class="product__reveiws-rating-range">
-                <div class="product__rating-parameter">
-                  <span>sq</span>
-                  <span>Excellent</span>
-                  <div class="rating">
-                    <div class="fill"></div>
-                  </div>
-                  <span>%</span>
-                </div>
-              </div>
-            </div>
-            <div class="product__feature__ratings">
-              <div class="product__feature__rating">
-                <strong>Fit</strong>
-                <div class="product__feature__rating-stars-rating">
-                  <div class="product__feature__rating-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <strong class="product__feature__rating-no">4.4/5</strong>
-                </div>
-              </div>
-              <div class="product__feature__rating">
-                <strong>Fit</strong>
-                <div class="product__feature__rating-stars-rating">
-                  <div class="product__feature__rating-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <strong class="product__feature__rating-no">4.4/5</strong>
-                </div>
-              </div>
-              <div class="product__feature__rating">
-                <strong>Fit</strong>
-                <div class="product__feature__rating-stars-rating">
-                  <div class="product__feature__rating-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <strong class="product__feature__rating-no">4.4/5</strong>
-                </div>
-              </div>
-              <div class="product__feature__rating">
-                <strong>Fit</strong>
-                <div class="product__feature__rating-stars-rating">
-                  <div class="product__feature__rating-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <strong class="product__feature__rating-no">4.4/5</strong>
-                </div>
-              </div>
-              <div class="product__feature__rating">
-                <strong>Fit</strong>
-                <div class="product__feature__rating-stars-rating">
-                  <div class="product__feature__rating-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <strong class="product__feature__rating-no">4.4/5</strong>
-                </div>
-              </div>
-              <div class="product__feature__rating">
-                <strong>Fit</strong>
-                <div class="product__feature__rating-stars-rating">
-                  <div class="product__feature__rating-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <strong class="product__feature__rating-no">4.4/5</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <!-- Actuall Customer Reviews showing up, with their profile -->
-        <div class="product__reviews__customer-show">
-          <div class="product__customer__review">
-            <strong class="customer__name">
-              John
-              <span class="customer__review__time-passed">15 hours ago</span>
-            </strong>
-            <div class="customer__rating-detail">
-              <div class="customer__rating-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <button class="more-details__btn">More details arbt</button>
-            </div>
-            <p class="customer__comment">T-Shirt is Good</p>
-            <p>(tick) Verifi lroem dfdf dfdf df</p>
-          </div>
-        </div>
-        <hr />
-        <p class="random__line">Lorem ipsum dolor sit amet.</p>
-      </section>
-      <section class="product__customer-images">
-        <!-- Title -->
-        <h2>See The T shirt in action</h2>
-        <!-- description -->
-        <div class="product__customer-description-powered">
-          <p class="product__customer-description">
-            Lorem ipsum dolor sit amet consectetur.
-          </p>
-          <p class="product__customer-powered">
-            Lorem ipsum dolor sit amet consectetur.
-          </p>
-        </div>
-        <!-- pictures -->
-        <div class="product__customer-images-list">
-          <img
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product photo on customer"
-            class="product__customer-image"
-          />
-          <img
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product photo on customer"
-            class="product__customer-image"
-          />
-          <img
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product photo on customer"
-            class="product__customer-image"
-          />
-          <img
-            src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-            alt="Product photo on customer"
-            class="product__customer-image"
-          />
-        </div>
-        <p class="product__image-upload-suggestion">
-          Lorem ipsum dolor sit amet.
+        <p class="product__information__paragraph--small">
+          With just sny of 50 colors, these shirts am a perfect choice for your
+          class reunion. We re going to guess the person reading this right now
+          was the winner of the Most Organizad superlative, Congrats to your Now
+          get everybody's sizes, and let's start that order. Read Loss
         </p>
       </section>
-      <section class="product__coordinating__styles">
-        <!-- Title -->
-        <h2>See The T shirt in action</h2>
-        <!-- description -->
-        <div class="product__coordinating-description-powered">
-          <p class="product__coordinating-description">
-            Lorem ipsum dolor sit amet consectetur.
+      <section class="product__footer__wrapper">
+        <footer class="product__footer">
+          <!-- Title -->
+          <h3 class="product__footer__title">
+            Product Experts Available 7 Days a Week
+          </h3>
+          <!-- Description -->
+          <p class="product__footer__description">
+            Not sure what to buy? We'll point you to the right product!
           </p>
-          <p class="product__coordinating-powered">
-            Lorem ipsum dolor sit amet consectetur.
+          <!-- Number | chat now btn -->
+          <p class="product__footer__num__btn">
+            800-293-4232 | <button class="chat__now__btn">Chat Now</button>
           </p>
-        </div>
-        <!-- Product Cards
-              product image
-              product desc
-              rating
-              size
-              for other gender
-      -->
-        <div class="product__coordinating-cards-list">
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-        </div>
+        </footer>
       </section>
-      <section class="product__similar__styles">
-        <!-- Title -->
-        <h2>See The T shirt in action</h2>
-        <!-- description -->
-        <div class="product__similar-description-powered">
-          <p class="product__similar-description">
-            Lorem ipsum dolor sit amet consectetur.
-          </p>
-          <p class="product__similar-powered">
-            Lorem ipsum dolor sit amet consectetur.
-          </p>
-        </div>
-        <!-- Product Cards
-              product image
-              product desc
-              rating
-              size
-              for other gender
-      -->
-        <div class="product__similar-cards-list">
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-          <div class="product__card">
-            <img
-              src="https://playmakerswanted.com/webp/data/products/jmsu.eauwlvsk.png.webp"
-              alt="Product photo on customer"
-              class="product__card-image"
-            />
-            <p class="product__card-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              nihil!
-            </p>
-            <div class="product__card-rating">
-              <div class="product__card-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <span>(3,087)</span>
-            </div>
-            <div class="product__card-sizes">
-              <span>5-3XL</span> | <span>Minimum 6</span>
-            </div>
-            <p>Also In Men</p>
-          </div>
-        </div>
-      </section>
-      <footer class="product__footer">
-        <!-- Title -->
-        <h3>Product Experts Available 7 Days a Week</h3>
-        <!-- Description -->
-        <p>Not sure what to buy? We'll point you to the right product!</p>
-        <!-- Number | chat now btn -->
-        <p>800-293-4232 | <button class="chat__now">Chat Now</button></p>
-      </footer>
     </main>
   </body>
 </html>
