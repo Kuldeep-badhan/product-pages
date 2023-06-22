@@ -36,6 +36,53 @@ $link_color: #63b2e4;
   }
 }
 
+// Define your color palette using a Sass map
+$colors: (
+  1: #ffffff,
+  2: #e8e0ca,
+  3: #111111,
+  4: #d8d9db,
+  5: #a0a0a0,
+  6: #a19386,
+  7: #7e7d7d,
+  8: #3d3d3d,
+  9: #393b3d,
+  10: #2c3344,
+  11: #283465,
+  12: #527ab8,
+  13: #96b6d6,
+  14: #63b2e4,
+  15: #92b5be,
+  16: #7b9fb7,
+  17: #4a6e92,
+  18: #006b95,
+  19: #009cb5,
+  20: #a09dcd,
+  21: #3b2962,
+  22: #b3082d,
+  23: #7d1836,
+  24: #490025,
+  25: #da7cb1,
+  26: #da7cb1,
+  27: #efc8dc,
+  28: #da5a67,
+  29: #e38713,
+  30: #fad569,
+  31: #edd98b,
+  32: #e9977d,
+  33: #c3461a,
+  34: #dc451a,
+  35: #243326,
+  36: #504f39,
+  37: #38854f,
+  38: #acc5a0,
+  39: #9da67e,
+  40: #b0cc59,
+  41: #f2e22c,
+  42: #bdb39e,
+  43: #36291f // Add more colors here...,,
+);
+
 * {
   margin: 0;
   padding: 0;
@@ -276,8 +323,20 @@ body {
           display: inline-block;
           height: 30px;
           width: 30px;
-          background-color: #fff;
+          // background-color: #fff;
+          // visibility: hidden;
           border-radius: 15px;
+        }
+        $counter: 1;
+        // Generate the color picker styles using a loop
+        @each $key, $value in $colors {
+          .color__picker--#{$counter} {
+            background-color: $value;
+            // Additional styling for the color picker element
+            // ...
+          }
+
+          $counter: $counter + 1; // Increment the counter variable
         }
       }
       .single-product__sizes--2 {
@@ -347,8 +406,20 @@ body {
           display: inline-block;
           height: 30px;
           width: 30px;
-          background-color: #fff;
+          // background-color: #fff;
+          // visibility: hidden;
           border-radius: 15px;
+        }
+        $counter: 1;
+        // Generate the color picker styles using a loop
+        @each $key, $value in $colors {
+          .color__picker--#{$counter} {
+            background-color: $value;
+            // Additional styling for the color picker element
+            // ...
+          }
+
+          $counter: $counter + 1; // Increment the counter variable
         }
       }
       .single-product__form__wrapper {
